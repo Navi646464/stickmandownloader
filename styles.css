@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'PressStart2d';
+    src: url('PressStart2d.ttf');
+}
+body {
+    margin: 0;
+}
+
+.background {
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+.container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title {
+    font-size: 50px;
+}
+
+.downloadlink {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'PressStart2d';
+}
+
+.downloadlink:hover {
+    color: white;
+}
